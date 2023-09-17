@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    style="@style/SCREEN"
     tools:context=".Frame18">
 
     <LinearLayout
@@ -19,7 +19,7 @@
             android:background="@color/black"
             android:drawableLeft="@drawable/arrow_back"
             android:gravity="center"
-            android:paddingStart="8dp"
+            android:paddingStart="12dp"
             android:paddingEnd="4dp"
             android:text="Список девайсов"
             android:textAppearance="@style/TEXT"
@@ -36,12 +36,12 @@
         android:id="@+id/btn_sw"
         style="@style/BUTTONframe"
         android:layout_width="369dp"
-        android:layout_height="67dp"
+        android:layout_height="75dp"
         android:layout_marginTop="80dp"
         android:drawableLeft="@drawable/fra18"
         android:drawablePadding="-60dp"
         android:gravity="center"
-        android:paddingStart="4dp"
+        android:paddingStart="12dp"
         android:paddingEnd="4dp"
         android:text="Полка"
         android:textAppearance="@style/TEXT"
