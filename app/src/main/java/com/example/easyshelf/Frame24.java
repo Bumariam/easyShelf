@@ -3,6 +3,7 @@ package com.example.easyshelf;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
@@ -18,6 +19,18 @@ public class Frame24 extends AppCompatActivity {
         setContentView(R.layout.activity_frame24);
 
         ImageButton btnForShelf = findViewById(R.id.btn_for_shelf);
+        Button btn_back_o = findViewById(R.id.btn_back_o);
+
+
+        btn_back_o.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Создаем Intent для запуска активности activity_frame32
+                Intent intent = new Intent(Frame24.this, Frame18.class);
+                startActivity(intent);
+            }
+        });
+
 
         btnForShelf.setOnClickListener(new View.OnClickListener() {
             @Override
